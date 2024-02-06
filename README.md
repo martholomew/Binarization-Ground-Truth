@@ -25,7 +25,7 @@ To convert them all to RGB PNG files with no transparency.
 | DIBCO_2017 | [DIBCO 2017](https://vc.ee.duth.gr/dibco2017/benchmark/)
 | DIBCO_2018 | [H-DIBCO 2018](https://vc.ee.duth.gr/h-dibco2018/benchmark/)
 | DIBCO_2019 | [DIBCO 2019](https://vc.ee.duth.gr/dibco2019/benchmark/)
-| LIVEMEMORY | [LiveMemory Dataset](https://u.pcloud.link/publink/show?code=kZ9szOXZPCgUYbO25hjjPA2bh9outpxgu4gX)
+| LIVEMEMORY | [LiveMemory Dataset](https://u.pcloud.link/publink/show?code=kZ9szOXZPCgUYbO25hjjPA2bh9outpxgu4gX) (dataset 3)
 | NABUCO_(1/2) | [Nabuco Dataset](https://u.pcloud.link/publink/show?code=kZbszOXZ1DIc0qnv2q4h0Lg12JSQP0vrWqFV)
 | PERSIAN | [PHIBD 2012](http://www.iapr-tc11.org/mediawiki/index.php/Persian_Heritage_Image_Binarization_Dataset_(PHIBD_2012))
 | BICKLEY | [Bickley Diary Dataset](https://web.archive.org/web/20130908193811/http://www.comp.nus.edu.sg/~dfanbo/projects/BinarizationShop/dataset.htm)
