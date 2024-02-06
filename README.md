@@ -1,6 +1,6 @@
 # Binarization Groundtruth
 
-Ground Truth for Binarization Models
+Ground Truth for Text Binarization Models
 
 ## Processing
 
