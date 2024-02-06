@@ -2,6 +2,14 @@
 
 Ground Truth for Binarization Models
 
+## Processing
+
+To prepare the images for [SAM-fine-tune](https://github.com/WangRongsheng/SAM-fine-tune), I ran this command on all of the images:
+```bash
+mogrify -alpha off -type TrueColor png24:*
+```
+To convert them to RGB PNG files, as they all had to have the same amount of channels with no transparency.
+
 ## Sources
 
 
