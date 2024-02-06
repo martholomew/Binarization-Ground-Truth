@@ -8,7 +8,7 @@ To prepare the images for [SAM-fine-tune](https://github.com/WangRongsheng/SAM-f
 ```bash
 mogrify -alpha off -type TrueColor png24:*
 ```
-To convert them to RGB PNG files, as they all had to have the same amount of channels with no transparency.
+To convert them all to RGB PNG files with no transparency.
 
 ## Sources
 
