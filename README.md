@@ -21,6 +21,7 @@ Ground Truth for Binarization Models
 | NABUCO_(1/2) | [Nabuco Dataset](https://u.pcloud.link/publink/show?code=kZbszOXZ1DIc0qnv2q4h0Lg12JSQP0vrWqFV)
 | PERSIAN | [PHIBD 2012](http://www.iapr-tc11.org/mediawiki/index.php/Persian_Heritage_Image_Binarization_Dataset_(PHIBD_2012))
 | BICKLEY | [Bickley Diary Dataset](https://web.archive.org/web/20130908193811/http://www.comp.nus.edu.sg/~dfanbo/projects/BinarizationShop/dataset.htm)
+| RENNES | Custom Dataset ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)) |
 
 ## Unused Sources
 
