@@ -1,4 +1,4 @@
-# Binarization Groundtruth
+# Text Binarization Groundtruth
 
 Ground Truth for Text Binarization Models
 
