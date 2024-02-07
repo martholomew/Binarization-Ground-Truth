@@ -6,7 +6,7 @@ Groundtruth for Text Binarization Models
 
 To prepare the images for [SAM-fine-tune](https://github.com/WangRongsheng/SAM-fine-tune), I ran this command on all of the images:
 ```bash
-mogrify -alpha off -type TrueColor png24:*
+for img in *; do name="${img%.*}" convert "$img" -alpha off -type TrueColor png24:"$name".png; done
 ```
 To convert them all to RGB PNG files with no transparency.
 
@@ -30,8 +30,11 @@ To convert them all to RGB PNG files with no transparency.
 | PERSIAN | [PHIBD 2012](http://www.iapr-tc11.org/mediawiki/index.php/Persian_Heritage_Image_Binarization_Dataset_(PHIBD_2012))
 | BICKLEY | [Bickley Diary Dataset](https://web.archive.org/web/20130908193811/http://www.comp.nus.edu.sg/~dfanbo/projects/BinarizationShop/dataset.htm)
 | RENNES | Custom Dataset ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)) |
+| BLEEDTHROUGH | [Bleed-Through Database](https://www.isos.dias.ie/Sigmedia/Bleed_Through_Database.html) |
 
 ## Unused Sources
+[Bleed-Through Database](https://www.isos.dias.ie/Sigmedia/Bleed_Through_Database.html)
+- Did not use `UCD.MSA29.12v` as it was too messy and cleaned up `NLI.MSG18.147` manually.
 
 [Palm Leaf Manuscript Dataset](http://amadi.univ-lr.fr/ICFHR2016_Contest/index.php/download-123)
 - The lines are accurate in path but not thickness.
