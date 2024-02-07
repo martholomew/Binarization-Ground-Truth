@@ -41,6 +41,3 @@ To convert them all to RGB PNG files with no transparency.
 
 [DIVA-HisDB](https://diuf.unifr.ch/main/hisdoc/diva-hisdb.html)
 - Too innacurate for use here.
-
-[SleukRith Set](https://github.com/donavaly/SleukRith-Set)
-- Not enough data for use here.
